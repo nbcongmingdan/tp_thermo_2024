@@ -1,4 +1,4 @@
-# Fichier readme pour utiliser mon notebook Jupyter
+# Fichier readme
 
 
 ### Ce que j'ai fait :
