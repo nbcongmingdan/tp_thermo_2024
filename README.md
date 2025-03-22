@@ -1,7 +1,22 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+#Fichier readme pour utiliser mon notebook Jupyter
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+### Ce que j'ai fait :
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+Programme d'analyse automatique de la capacité calorifique spécifique. Lorsque nous entrons les données de mesure (sous forme de fichier .csv), nous pouvons obtenir \( C(T) \) pour n'importe quelle mesure à la fin du Jupyter Notebook, ce processus est automatique.
+
+Il y a deux choix : Calcul de la chaleur spécifique dans le livre rouge (méthode directe) et Méthode de l'égalité des aires.
+
+### Insuffisances :
+
+Pour la partie chauffage, j'ai utilisé une ligne droite pour l'ajustement. Théoriquement, on pourrait utiliser une fonction exponentielle, mais il y a peu de difference dans notre cas.
+
+De plus, mes annotations sont en chinois.
+
+La discussion sur la Méthode de l'égalité des aires n'est pas assez approfondie.
+
+### Problèmes à résoudre :
+
+La méthode de mesure manque de précision. Pour la méthode directe, la courbe BE descend très lentement, donc augmenter la limite supérieure de l'intégrale pose de gros problèmes (données non significatives).
+
+
